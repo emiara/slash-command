@@ -2,7 +2,7 @@
 
 **This repository hosts a Bash script for displaying content within a visually appealing banner format in the terminal.**
 
-## Installation
+## Installation from source
 
 **1. Clone this repository:**
 
@@ -19,6 +19,7 @@ cd <your-repo-name>
 **3. Install
 
 ```bash
+chmod +x ./install.sh && sudo ./install.sh
 ```
 
 ## Usage
@@ -26,12 +27,13 @@ cd <your-repo-name>
 **Run the script with the following options:**
 
 ```bash
-./<script-name>.sh [-c <content>]
+slash [-c <content>]
 ```
 
 **Available options:**
 
-* **-c <content>:** Specifies the content to be displayed within the banner.
+* **-t <text>:** Specific text on the header
+* **-c <command>:** Specifies a command to run with the banner
 * **--help:** Displays this help message.
 
 **Examples:**
@@ -39,13 +41,15 @@ cd <your-repo-name>
 * To display a simple banner:
 
 ```bash
-./<script-name>.sh
+slash
+================================================================================
 ```
 
 * To display a banner with the text "Welcome":
 
 ```bash
-./<script-name>.sh -c "Welcome"
+slash -c "cargo run"
+================================================================================
 ```
 
 ## Additional Notes

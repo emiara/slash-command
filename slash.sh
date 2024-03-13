@@ -36,7 +36,7 @@ if [[ $arg_c ]]; then
 
   echo "$part1 $arg_c $part2"
   exec $arg_c
-else
+else # if no argument is given just print =====
   echo $(printf '=%.0s' $(seq 1 $(tput cols)))
 fi
 
