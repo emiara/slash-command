@@ -16,10 +16,9 @@ git clone https://github.com/<your-username>/<your-repo-name>.git
 cd <your-repo-name>
 ```
 
-**3. (Optional) Make the script executable:**
+**3. Install
 
 ```bash
-chmod +x <script-name>.sh
 ```
 
 ## Usage
