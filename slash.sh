@@ -7,6 +7,7 @@ pretty_shorten_text() {
     # Calculate max length as 80% of terminal width
     local max_length=$((columns * 80 / 100))
 
+
     if [ ${#text} -gt $max_length ]; then
         echo "${text:0:$max_length}..."
     else
@@ -53,10 +54,12 @@ elif [[ $arg_cmd ]]; then
   bannertext=$arg_cmd
 fi
 
-bannertext= pretty_shorten_text "$long_text" "$columns"
+
 
 if [[ $bannertext ]]; then
   columns=$(tput cols) # Screen width
+  bannertext=$(pretty_shorten_text "$bannertext" "$columns")
+
   partLength=$((($columns - ${#bannertext}) / 2 - 1))
 
   part1=$(printf '=%.0s' $(seq 1 $partLength))
