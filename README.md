@@ -40,17 +40,12 @@ slash [-c <content>]
 
 * To display a simple banner:
 
-```bash
-slash
-================================================================================
-```
+![carbon_plain_example](https://github.com/emiara/slash-command/assets/61361584/6b6cb0c3-a30b-4e2b-bd8e-67ad09511c6e)
 
-* To display a banner with the text "Welcome":
 
-```bash
-slash -c "cargo run"
-================================================================================
-```
+* To display a banner and run assosiated command:
+
+![carbon_cmd_example](https://github.com/emiara/slash-command/assets/61361584/53d7743b-3adc-4093-994e-9de3ce3caf90)
 
 ## Additional Notes
 
