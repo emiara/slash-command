@@ -1,6 +1,5 @@
- **
-# README
-**
+ 
+** # README **
 
 **This repository hosts a Bash script for displaying content within a visually appealing banner format in the terminal.**
 
