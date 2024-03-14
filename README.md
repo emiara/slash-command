@@ -51,7 +51,7 @@ slash [-c <content>]
 ## Additional Notes
 
 * The script automatically adjusts the banner width to match the terminal window size.
-* If no content is specified using the `-c` option, a simple line of equals signs will be displayed.
+* If no content is specified using the `-c` option or the `-t` option, a simple line of equals signs will be displayed.
 
 ## Contributing
 
