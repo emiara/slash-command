@@ -40,12 +40,14 @@ slash [-c <content>]
 
 * To display a simple banner:
 
-![carbon_plain_example](https://github.com/emiara/slash-command/assets/61361584/6b6cb0c3-a30b-4e2b-bd8e-67ad09511c6e)
+![carbon(3)](https://github.com/emiara/slash-command/assets/61361584/4e105e36-48fe-478d-9d4f-7b1eb2604a54)
+
 
 
 * To display a banner and run assosiated command:
+![carbon(2)](https://github.com/emiara/slash-command/assets/61361584/793493bd-96ed-4924-bedb-a05a7834fb0a)
 
-![carbon_cmd_example](https://github.com/emiara/slash-command/assets/61361584/53d7743b-3adc-4093-994e-9de3ce3caf90)
+
 
 ## Additional Notes
 
