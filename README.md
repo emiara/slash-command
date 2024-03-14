@@ -44,7 +44,8 @@ slash [-c <content>]
 
 * To display a banner and run assosiated command:
 
-![carbon(3)](https://github.com/emiara/slash-command/assets/61361584/4e105e36-48fe-478d-9d4f-7b1eb2604a54)
+![carbon(4)](https://github.com/emiara/slash-command/assets/61361584/7e9c66e8-6cfc-4b77-a47b-792ab1a2ff84)
+
 
 ## Additional Notes
 
