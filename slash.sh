@@ -67,7 +67,8 @@ if [[ $bannertext ]]; then
 
   echo "$part1 $bannertext $part2"
   if [[ arg_cmd ]]; then
-    exec $bannertext
+    exec "$bannertext"
+
   fi
 else # if no argument is given just print =====
   echo $(printf '=%.0s' $(seq 1 $(tput cols)))
