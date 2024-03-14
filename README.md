@@ -42,22 +42,18 @@ slash [-c <content>]
 
 * To display a simple banner:
 
-```bash
-slash
-================================================================================
-```
+![carbon(2)](https://github.com/emiara/slash-command/assets/61361584/793493bd-96ed-4924-bedb-a05a7834fb0a)
 
-* To display a banner with the text "Welcome":
+* To display a banner and run assosiated command:
 
-```bash
-slash -c "cargo run"
-================================================================================
-```
+![carbon(5)](https://github.com/emiara/slash-command/assets/61361584/88abfbba-64ed-4340-8ee1-3fe1c40eca07)
+
+
 
 ## Additional Notes
 
 * The script automatically adjusts the banner width to match the terminal window size.
-* If no content is specified using the `-c` option, a simple line of equals signs will be displayed.
+* If no content is specified using the `-c` option or the `-t` option, a simple line of equals signs will be displayed.
 
 ## Contributing
 
